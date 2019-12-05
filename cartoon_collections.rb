@@ -24,6 +24,6 @@ end
 
 def find_the_cheese(string)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  return string if cheese_types.include? string else return nil
+  return string if cheese_types.include? string return nil
 end
 
